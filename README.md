@@ -18,7 +18,7 @@ __Функция__ | __Описание__
 # Code example
 
 [Ссылка на гитхабе](https://github.com/geterodyn/setgame/blob/master/game/check_set.py)
-```
+```python
 def check_set(cards):
 	fields = ["number", "symbol", "shading", "color"]
 	valid_len = (1,len(cards))
@@ -26,4 +26,4 @@ def check_set(cards):
 		len(set(field_list(cards,field))) in valid_len
 		for field in fields
 	)
-```python
+```
