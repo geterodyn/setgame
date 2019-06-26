@@ -1,5 +1,5 @@
 import pytest
-from check_set import Card, check_set 
+from game.check_set import Card, check_set
 
 def test_set():
 	assert check_set([Card(2,'DIAMOND','STRIPPED','RED'),Card(2,'DIAMOND','STRIPPED','RED'),Card(2,'DIAMOND','STRIPPED','RED')]) is True
