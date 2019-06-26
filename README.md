@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/geterodyn/setgame.svg?branch=master)](https://travis-ci.org/geterodyn/setgame)
+
 # **Description**
 
 This application checks 3 random cards with 4 items and replies if there is a set.
