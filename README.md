@@ -8,6 +8,11 @@ This application checks 3 random cards with 4 items and replies if there is a se
 * SHADING
 * COLOR 
 
+# Installation instructions
+1. If you want, you can create virtual environment for this package
+1. Just use `pip install git+https://github.com/geterodyn/setgame.git`
+1. No other dependencies needed
+
 # **Table of functions:**
 
 __Функция__ | __Описание__
@@ -27,3 +32,4 @@ def check_set(cards):
 		for field in fields
 	)
 ```
+
